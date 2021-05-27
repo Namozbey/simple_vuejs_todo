@@ -8,7 +8,6 @@
 <script>
 import axios from "axios"
 import Todos from "../components/Todos"
-import Header from "../components/layout/Header"
 import AddTodo from "../components/AddTodo"
 import { v4 as uuidv4 } from 'uuid';
 
@@ -16,7 +15,6 @@ export default {
   name: "Home",
   components: {
     Todos,
-    Header,
     AddTodo
   },
   data() {
